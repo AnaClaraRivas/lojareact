@@ -1,16 +1,47 @@
-# React + Vite
+# LUMIERE
+O projeto consiste em um site interativo onde usuários possam avaliar filmes, séries e livros, deixando notas e comentários. Podendo criar estantes personalizadas, ver oytras avaliaçãoes e as obras detalhadamente!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Linguagens Base
 
-Currently, two official plugins are available:
+O projeto será desenvolvido utilizando para o Front-End:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+HTML -	Estruturação das páginas
+CSS - Estilização e layout
+JavaScript - Interatividade e lógica
+React.js - Criação de componentes, estados e rotas
 
-## React Compiler
+E para o Back-End: 
+PHP	- Processamento de dados no servidor
+Banco de Dados MySQL - Armazenamento de usuários, filmes e avaliações
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+# Bibliotecas e Frameworks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Framework de build - 	Vite	
+Estilização	Bootstrap -	Layout responsivo e componentes prontos
+Comunicação com Fetch API -	Requisições para o backend em PHP
+
+# Integração com Backend 
+
+A comunicação entre o Front-End e o Back-End será feita por API.
+
+Fluxo:
+
+1. O React envia requisições HTTP para arquivos PHP usando o Fetch.
+
+
+2. O PHP recebe os dados, processa e consulta o banco MySQL.
+
+
+3. O PHP retorna a resposta em JSON para o React.
+
+
+
+# Controle de Versão
+
+O projeto utiliza:
+
+GitHub para armazenamento do repositório e colaboração
+
+#Projeto em desenvolvimento
